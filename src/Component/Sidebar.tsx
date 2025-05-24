@@ -3,10 +3,10 @@ function Sidebar() {
     <>
       <aside
         id="logo-sidebar"
-        className="fixed top-20 left-0 z-40 w-64 h-full transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:border-gray-700"
+        className="fixed h-full transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:border-gray-700"
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 pb-4 overflow-y-auto  ">
+        <div className="h-full px-3 overflow-y-auto">
           <ul className="space-y-2">
             <li>
               <div className="flex justify-between hover:bg-gray-200 pl-3">
