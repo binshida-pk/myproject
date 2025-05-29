@@ -1,5 +1,4 @@
-import React from "react";
-import Card from "./Card";
+import Table from "./Table";
 
 function Mainbody() {
   return (
@@ -35,11 +34,11 @@ function Mainbody() {
               <p className="flex-start">Courses categorys</p>
               <p className="flex-end">This week</p>
             </div>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Table />
+            <Table />
+            <Table />
+            <Table />
+            <Table />
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ function Sidebar() {
                 </svg>
 
                 <a
-                  href="#"
+                  href="/"
                   className="block px-2 py-2 rounded hover:bg-gray-200 w-full pl-3 "
                 >
                   Home
@@ -55,7 +55,7 @@ function Sidebar() {
                 </svg>
 
                 <a
-                  href="#"
+                  href="./login"
                   className="block px-2 py-2 rounded w-full hover:bg-gray-200 pl-3"
                 >
                   Login
@@ -81,7 +81,7 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a href="#" className="block px-2 py-2 rounded w-full">
+                <a href="./info" className="block px-2 py-2 rounded w-full">
                   personal info
                 </a>
               </div>
@@ -108,7 +108,7 @@ function Sidebar() {
                 </svg>
 
                 <a
-                  href="#"
+                  href="./card"
                   className="block hover:bg-gray-200 px-2 py-2 rounded w-full"
                 >
                   Card
@@ -136,7 +136,7 @@ function Sidebar() {
                 </svg>
 
                 <a
-                  href="#"
+                  href="./users"
                   className="block hover:bg-gray-200 px-2 py-2 rounded w-full "
                 >
                   users
@@ -149,49 +149,4 @@ function Sidebar() {
     </>
   );
 }
-
 export default Sidebar;
-// import React from "react";
-
-// function Sidebar() {
-//   return (
-//     <aside
-//       id="logo-sidebar"
-//       className="fixed top-0 left-0 z-40 w-64 h-full pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:border-gray-700 space-y-0"
-//       aria-label="Sidebar"
-//     >
-//       <ul className="space-y-2">
-//         <li>
-//           <div className="flex justify-between hover:bg-gray-200 pl-3">
-//             <svg
-//               className="w-6 h-6 text-gray-800 dark:text-black mt-3"
-//               aria-hidden="true"
-//               xmlns="http://www.w3.org/2000/svg"
-//               width="24"
-//               height="24"
-//               fill="none"
-//               viewBox="0 0 24 24"
-//             >
-//               <path
-//                 stroke="currentColor"
-//                 stroke-linecap="round"
-//                 stroke-linejoin="round"
-//                 stroke-width="2"
-//                 d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"
-//               />
-//             </svg>
-
-//             <a
-//               href="#"
-//               className="block px-2 py-2 rounded hover:bg-gray-200 w-full pl-3"
-//             >
-//               Home
-//             </a>
-//           </div>
-//         </li>
-//       </ul>
-//     </aside>
-//   );
-// }
-
-// export default Sidebar;
