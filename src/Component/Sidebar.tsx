@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 function Sidebar() {
   return (
-    <>
+    <div className="hidden h-full flex-col border-r border-default-border transition-[width] duration-300 lg:flex">
       <aside
         id="logo-sidebar"
         className="fixed h-full transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:border-gray-700"
@@ -28,12 +30,12 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a
-                  href="/"
+                <Link
+                  to="/admin/"
                   className="block px-2 py-2 rounded hover:bg-gray-200 w-full pl-3 "
                 >
                   Home
-                </a>
+                </Link>
               </div>
             </li>
             <li>
@@ -54,12 +56,12 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a
-                  href="./login"
+                <Link
+                  to="/signin"
                   className="block px-2 py-2 rounded w-full hover:bg-gray-200 pl-3"
                 >
                   Login
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -81,9 +83,12 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a href="./info" className="block px-2 py-2 rounded w-full">
+                <Link
+                  to="/admin/info"
+                  className="block px-2 py-2 rounded w-full"
+                >
                   personal info
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -107,12 +112,12 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a
-                  href="./card"
+                <Link
+                  to="/admin/card"
                   className="block hover:bg-gray-200 px-2 py-2 rounded w-full"
                 >
                   Card
-                </a>
+                </Link>
               </div>
             </li>
             <li>
@@ -135,18 +140,18 @@ function Sidebar() {
                   />
                 </svg>
 
-                <a
-                  href="./users"
+                <Link
+                  to="/admin/users"
                   className="block hover:bg-gray-200 px-2 py-2 rounded w-full "
                 >
                   users
-                </a>
+                </Link>
               </div>
             </li>
           </ul>
         </div>
       </aside>
-    </>
+    </div>
   );
 }
 export default Sidebar;

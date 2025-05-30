@@ -1,17 +1,26 @@
-function Navbar() {
+import type { PropsWithChildren } from "react";
+import { Link } from "react-router-dom";
+
+type NavbarProps = PropsWithChildren & {
+  logoPath?: string;
+};
+
+function Navbar({ logoPath = '/' }: NavbarProps) {
   return (
     <>
-      <div>
-        <nav className="flex  w-full border-b-1 lg:px-5 lg:pl-3 p-2">
-          <div className="flex items-center justify-start w-full">
-            <img
-              className=" h-10 pl-5 rounded "
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaeqeJc3kSZobvBDUIasOGraOw4iP0LDhQ-g&s"
-            />
-            <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-dark pl-3">
-              DEXA APP
-            </span>
-          </div>
+      <div className='z-10 col-span-2 flex h-navbar items-center border-b border-default-border bg-[var(--mantine-color-body)] py-3 pr-sm'>
+        <nav className="flex  w-full lg:px-5 lg:pl-3 p-2">
+          <Link to={logoPath}>
+            <div className="flex items-center justify-start w-full">
+              <img
+                className=" h-10 pl-5 rounded "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaeqeJc3kSZobvBDUIasOGraOw4iP0LDhQ-g&s"
+              />
+              <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-dark pl-3">
+                DEXA APP
+              </span>
+            </div>
+          </Link>
           <div className="flex items-center justify-end  w-full pr-5  ">
             <svg
               className="w-6 h-6 text-gray-800 dark:text-black mr-3"
