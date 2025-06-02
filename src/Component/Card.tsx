@@ -99,12 +99,12 @@ type Props = {
 
 const Card = ({ image, title, text }: Props) => {
   return (
-    <div className="border-1 mt-4 ">
-      <img className="rounded-t-lg p-3 w-full" src={image} />
+    <div className="border-1 mt-4 bg-gray-400 w-[300px] ">
+      <img className="rounded-t-lg p-3 w-full " src={image} />
 
-      <h1>{title}</h1>
-      <p>{text}</p>
-      <div className="flex justify-between">
+      <h1 className="pl-3">{title}</h1>
+      <p className="pl-3">{text}</p>
+      <div className="flex justify-between pl-3 pb-2 ">
         <Button classes={"w-full "} label="submit" />
         <svg
           className="w-10 h-10 text-gray-800 dark:text-red-400 bg-gray-700 mr-3 rounded-lg border-2 border-gray-500"
