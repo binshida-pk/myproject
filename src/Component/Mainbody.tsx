@@ -3,8 +3,8 @@ import Table from "./Table";
 function Mainbody() {
   return (
     <div>
-      <div className="p-4 sm:ml-64  h-[20vh] ">
-        <div className="grid grid-cols-5  gap-3  ">
+      <div className="pr-10 pt-5 sm:ml-64  h-[20vh]  ">
+        <div className="grid grid-cols-5  gap-3 ">
           <div className="col-span-2 p-2 bg-violet-400 rounded-lg border-1  ">
             <div className="font-bold ">Welcome Back!Daxa</div>
             <p>Learning Management System Dashboard</p>

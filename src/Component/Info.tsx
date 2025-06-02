@@ -2,8 +2,8 @@ import Button from "./Button";
 
 function Info() {
   return (
-    <div className=" overflow-y-auto max-h-screen">
-      <div className=" mr-5 pl-[300px]">
+    <div className=" overflow-y-auto max-h-screen ">
+      <div className=" pr-7 pl-60">
         <div className="col-span-2 bg-gray-100 p-2.5 rounded-lg border border-gray-400">
           <div className="flex gap-5">
             <div className="w-full md:w-1/3">
@@ -11,7 +11,7 @@ function Info() {
                 First Name
               </label>
               <input
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full  rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white border-1"
                 id="grid-first-name"
                 type="text"
                 placeholder="text"
@@ -22,7 +22,7 @@ function Info() {
                 Last Name
               </label>
               <input
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 id="grid-last-name"
                 type="text"
                 placeholder="text"
@@ -35,7 +35,7 @@ function Info() {
                 Email Address
               </label>
               <input
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 id="grid-last-name"
                 type="text"
                 placeholder="text"
@@ -48,7 +48,7 @@ function Info() {
                 Country
               </label>
               <div
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 id="grid-state"
               >
                 <div className="relative flex justify-between">
@@ -67,7 +67,7 @@ function Info() {
                 Street Address
               </label>
               <input
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 id="grid-last-name"
                 type="text"
                 placeholder="text"
@@ -80,7 +80,7 @@ function Info() {
                 city
               </label>
               <input
-                className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 id="grid-last-name"
                 type="text"
                 placeholder="text"
@@ -92,7 +92,7 @@ function Info() {
                   State/Province
                 </label>
                 <input
-                  className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                  className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                   id="grid-last-name"
                   type="text"
                   placeholder="text"
@@ -106,7 +106,7 @@ function Info() {
                   Zip/Postal Code
                 </label>
                 <input
-                  className="block w-full border rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
+                  className="block w-full border-1 rounded py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                   id="grid-last-name"
                   type="text"
                   placeholder="text"
