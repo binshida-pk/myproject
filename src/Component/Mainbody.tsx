@@ -34,11 +34,10 @@ function Mainbody() {
               <p className="flex-start">Courses categorys</p>
               <p className="flex-end">This week</p>
             </div>
-            <Table />
-            <Table />
-            <Table />
-            <Table />
-            <Table />
+            <Table text1="Technology" text2="30+ Course" text3="Enrolled 950" />
+            <Table text1="Technology" text2="50+ Course" text3="Enrolled 950" />
+            <Table text1="Technology" text2="70+ Course" text3="Enrolled 950" />
+            <Table text1="Technology" text2="90+ Course" text3="Enrolled 950" />
           </div>
         </div>
       </div>

@@ -4,7 +4,8 @@ import Mainbody from "./Mainbody";
 import Login from "./Login";
 import CardProps from "./Cardprop";
 import Info from "./Info";
-import Users from "./Users";
+
+import Usersprop from "./Usersprop";
 
 function CustomRoute() {
   return (
@@ -12,9 +13,10 @@ function CustomRoute() {
       <Routes>
         <Route path="/" element={<Mainbody />} />
         <Route path="login" element={<Login />} />
+
         <Route path="card" element={<CardProps />} />
         <Route path="info" element={<Info />} />
-        <Route path="users" element={<Users />} />
+        <Route path="users" element={<Usersprop />} />
       </Routes>
     </Dashboard>
   );
